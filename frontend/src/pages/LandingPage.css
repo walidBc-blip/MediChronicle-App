@@ -1,0 +1,39 @@
+/* LandingPage.css */
+.landing-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh; /* Full viewport height */
+  width: 100%; /* Full viewport width */
+  background-color: #005a87; /* MediChronicle brand color */
+}
+
+.landing-container {
+  background-color: white; /* White background for the content */
+  padding: 40px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+  max-width: 600px; /* Max width of the content */
+  margin: auto; /* Center the box */
+}
+
+/* Button styles */
+.action-buttons .btn {
+  margin: 10px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold; /* Make text bold */
+}
+
+.btn-primary {
+  background-color: #005a87;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+}

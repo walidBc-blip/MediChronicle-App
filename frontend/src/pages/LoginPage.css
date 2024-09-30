@@ -1,0 +1,56 @@
+.login-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  height: 100vh; /* Full viewport height */
+  width: 100%; /* Full viewport width */
+  background-color: #005a87; /* MediChronicle brand color */
+}
+
+.login-container {
+  background-color: white; /* White background for the form */
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+  max-width: 350px; /* Max width of the form */
+  margin: auto; /* Center the form */
+  width: 100%; /* Full width to make it responsive */
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #333;
+  text-align: center;
+}

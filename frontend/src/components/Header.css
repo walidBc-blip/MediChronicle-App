@@ -1,0 +1,31 @@
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #005a87; /* Deep blue background */
+  padding: 10px;
+  color: white;
+}
+
+.app-title {
+  margin: 0;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.logout-button {
+  background-color: #ff4d4d; /* Red background */
+  color: white; /* White text */
+  border: none;
+  border-radius: 20px; /* Rounded corners */
+  cursor: pointer;
+  padding: 10px 20px; /* Increase padding for a larger button */
+  font-size: 1rem; /* Adjust font size as needed */
+  font-weight: bold; /* Optional: if you want the text to be bold */
+  margin-left: 10px;
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.logout-button:hover {
+  background-color: #cc0000; /* Darker red on hover */
+}

@@ -1,0 +1,43 @@
+.doctor-home-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.welcome-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.home-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.card-title {
+  color: #0056b3;
+  margin-bottom: 16px;
+}
+
+.card-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card-list-item {
+  border-bottom: 1px solid #eee;
+  padding: 8px 0;
+}
+
+.card-empty {
+  color: #666;
+  text-align: center;
+}

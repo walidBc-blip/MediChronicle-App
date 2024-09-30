@@ -1,0 +1,37 @@
+/* PatientCard.css */
+.patient-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.patient-info {
+  margin-bottom: 15px;
+}
+
+.patient-name {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.patient-condition {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.patient-medication-info {
+  margin-bottom: 10px;
+}
+
+.patient-medication-info h4 {
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+
+.patient-contact-info p,
+.patient-next-appointment {
+  font-size: 0.9em;
+  margin-bottom: 5px;
+}

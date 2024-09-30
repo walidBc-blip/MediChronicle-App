@@ -1,0 +1,51 @@
+.insurance-page {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.plan-details,
+.insurance-documents,
+.claims-history {
+  margin-bottom: 30px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.document-link {
+  display: inline-block;
+  margin-right: 15px;
+  background-color: #e7f1ff;
+  color: #0056b3;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  /* padding-left: 20px; */
+  position: relative;
+}
+
+li:before {
+  /* content: "•"; */
+  color: #0056b3;
+  position: absolute;
+  left: 0;
+}
+
+#table-headers {
+  background-color: rgb(114, 161, 205);
+  height: 10vh;
+}

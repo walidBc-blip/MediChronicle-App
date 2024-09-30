@@ -1,0 +1,62 @@
+.consultations-page {
+  padding-top: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.medical-entry-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.medical-entry-card h3 {
+  color: #005a87;
+  margin-bottom: 10px;
+}
+
+.medical-entry-card p {
+  color: #333;
+  line-height: 1.6;
+}
+
+.medical-entry-card p strong {
+  color: #000;
+}
+
+.attachments {
+  margin-top: 10px;
+}
+
+.attachments a {
+  display: inline-block;
+  background-color: #005a87;
+  color: #ffffff;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.attachments a:hover {
+  background-color: #003f5f;
+}
+
+@media (max-width: 768px) {
+  .consultations-page {
+    padding: 20px;
+  }
+
+  .medical-entry-card {
+    padding: 15px;
+  }
+}

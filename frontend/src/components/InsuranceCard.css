@@ -1,0 +1,18 @@
+/* src/components/InsuranceCard.css */
+.insurance-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.insurance-card h3 {
+  color: #28a745;
+  margin-bottom: 8px;
+}
+
+.insurance-card p {
+  margin: 4px 0;
+}
